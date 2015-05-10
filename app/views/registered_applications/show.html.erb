@@ -1,0 +1,4 @@
+<h1><%= @registered_application.name %></h1>
+<p><%= @registered_application.url %></p>
+
+<%= link_to "Remove App Registeration", registered_application_path(@registered_application), method: :delete, class: 'btn btn-danger', data: { confirm: "Are you sure?" } %>

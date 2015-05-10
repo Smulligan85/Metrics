@@ -1,0 +1,5 @@
+<% @registered_applications.each do |app| %>
+  <h2><%= link_to (app.name), app %></h2>
+<% end %>
+
+<%= link_to "Register New App", new_registered_application_path, class: "btn btn-primary" %>
