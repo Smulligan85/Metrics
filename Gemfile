@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'bootswatch-rails'
 gem 'google-webfonts-rails'
 gem 'devise'
+gem 'faker'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
