@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+//Import bootstrap-sprockets
+@import "bootstrap-sprockets";
+
+// Import cyborg variables
+@import "bootswatch/cyborg/variables";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+h1, h2 {
+  text-align: center;
+  color: #FF0066;
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+// And finally bootswatch style itself
+@import "bootswatch/cyborg/bootswatch";
